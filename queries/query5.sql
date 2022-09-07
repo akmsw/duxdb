@@ -11,8 +11,7 @@ from
 			venta as v
 		join
 			producto as p
-		on
-			codigo_producto = codigo
+			on codigo_producto = codigo
 		join
 			rubro as r
 			using(id_rubro)
