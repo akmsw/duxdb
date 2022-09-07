@@ -2,7 +2,7 @@
 select
 	c.nombre as nombre_cliente,
 	c.apellido as apellido_cliente,
-	ifnull(v.cantidad * v.precio_unitario, 0) as monto_total
+	ifnull(sum(v.cantidad * v.precio_unitario), 0) as monto_total
 from
 	cliente as c
 left join
