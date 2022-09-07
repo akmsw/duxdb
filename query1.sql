@@ -1,5 +1,5 @@
 /* Todos los productos del rubro "librería" creados hoy */
-select
+select distinct
 	p.nombre as nombre_producto,
 	p.fecha_creacion,
 	r.rubro
