@@ -6,7 +6,6 @@ from
 	producto as p
 left join
 	venta as v
-on
-	codigo = codigo_producto
+	on codigo = codigo_producto
 group by
 	nombre_producto;
