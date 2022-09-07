@@ -1,5 +1,3 @@
-drop database duxdb;
-
 /* Creación de la base de datos de pruebas */
 create database duxdb;
 
