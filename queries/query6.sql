@@ -1,3 +1,4 @@
+/* Rubros que no tienen ventas en los últimos 2 meses */
 select
 	r.rubro
 from
