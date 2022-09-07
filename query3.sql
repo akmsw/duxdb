@@ -9,4 +9,4 @@ join
 on
 	codigo_producto = codigo
 group by
-	id_venta;
+	nombre_producto;
