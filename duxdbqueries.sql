@@ -79,12 +79,12 @@ group by
 /* Ventas que tienen al menos un producto del rubro "bazar" */
 select
 	id_venta,
-    rubro
+	rubro
 from
 	(
 		select
 			v.id_venta as id_venta,
-            r.rubro as rubro
+			r.rubro as rubro
 		from
 			venta as v
 		join
