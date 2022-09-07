@@ -7,9 +7,9 @@ use duxdb;
 /* Creación de tabla de rubros */
 create table if not exists rubro (
 	id_rubro bigint not null auto_increment,
-  rubro varchar(10) not null,
-    
-  primary key(id_rubro)
+	rubro varchar(10) not null,
+
+	primary key(id_rubro)
 );
 
 /* Creación de tabla de productos */
